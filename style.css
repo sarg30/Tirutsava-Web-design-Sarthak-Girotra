@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(114, 231, 231);
+    margin-left: 70px;
+    margin-right: 70px;
+    background-image:  url("bi6.jpg");
+    background-size: 1800px 1080px;
+}
+.headings{
+    text-align: center;
+    color: rgb(8, 230, 38);
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Brush Script MT', cursive;
+    background-color: cornsilk;
+}
+.topics{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(150, 228, 4);
+    background-color:cornsilk;
+}
+.topics2{
+    text-align: left;
+    font-size: 40px;
+    color: rgb(150, 228, 4);
+}
+p{
+    font-size: 20px;
+    color:rgb(14, 214, 214);
+    /*background: rgba(56, 43, 177, 0.26);*/   
+}
+h1{
+    font-size: 60px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+li{
+    color: blanchedalmond;
+}
+.links{
+    text-align: center;
+    font-size: 25px;
+    background-color: blanchedalmond;
+}
+a:link {
+    color: red;
+  }
+a:visited {
+    color: green;
+  }
+a:hover {
+    color: hotpink;
+  }
+a:active {
+    color: blue;
+  }
+.typewrite {
+    overflow: hidden; 
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
